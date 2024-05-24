@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template de prueba en Django</title>
+</head>
+<body>
+    <h1>Template de Prueba en Django</h1>
+    <p>Notificaciones</p>
+    <p>{{uuid}}</p>
+    <p>{{body}}</p>
+    
+    <h3>HTTP Methods</h3>
+    <ul>
+        {% for i in estatus %}
+            <li>{{ estatus }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

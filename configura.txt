@@ -1,0 +1,21 @@
+## Configuración de Entorno
+
+
+    - pip install django==5
+    - pip install djangorestframework
+    - pip install django
+
+## Crear proyecto
+    django-admin startproject core .
+
+## Crear aplicaciones
+    django-admin startapp notification
+
+
+## Configurar core/settings.py
+    - Agregar aplicaciones
+        'notification'
+        'rest_framework'
+
+    - Configurar rest_framework
+        
